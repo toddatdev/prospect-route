@@ -1,0 +1,168 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('http://fonts.cdnfonts.com/css/basier');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.sub-heading{
+    font-weight: bold;
+}
+
+p{
+   color: $p-color;
+}
+
+.works-hide {
+    display: none;
+}
+.works-hide-show {
+    display: block !important;
+}
+
+#pc-crm-leads{
+    background-color: #F7F8F9;
+    margin-top: 150px !important;
+
+.move-top{
+    margin-top: -150px ;
+}
+
+}
+
+
+.pr-crm-expanded-hide{
+    display: none;
+}
+.pr-crm-expanded-show{
+    display: block !important;
+}
+
+.our-leads-expanded-hide{
+    display: none;
+}
+.our-leads-expanded-show{
+    display: block !important;
+}
+
+.pc-crm-lead-border{
+    border-top: 7px solid #FFE03E;
+    border-right: 1px solid #DFE7EF;
+    border-bottom: 1px solid #DFE7EF;
+    border-left: 1px solid #DFE7EF;
+    box-shadow: 0px 4px 11px rgba(101, 122, 139, 0.1);
+}
+
+footer{
+    ul li a{
+        color: $secondary;
+        :hover{
+            color: $secondary;
+        }
+    }
+}
+
+
+
+
+
+//Mian Menu
+
+.main-nav{
+    ul{
+        .nav-link{
+         font-weight: 900;
+        }
+    }
+}
+
+.main-header{
+   .header-bottom{
+       margin-top: -100px;
+       padding-top: 5rem !important;
+       padding-bottom: 5rem !important;
+       background-color: #F2D227;
+   }
+}
+.form-control-lg{
+    font-size: 14px;
+}
+
+.choose-your-package{
+    p{
+        letter-spacing: 1.5px;
+    }
+    h5 {
+        font-size: 20px;
+        font-weight: 400;
+        color: #6485A8;
+    }
+
+    .packges-list{
+
+        li{
+            font-size: 18px !important;
+            font-weight: 400;
+            margin: 10px 0;
+            color: #6485A8;
+        }
+        span{
+            font-size: 18px;
+            font-weight: 600;
+            color: #000;
+        }
+
+    }
+    .card{
+        box-shadow: 0px 4px 11px rgba(101, 122, 139, 0.1) !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .choose-your-package{
+        .pricing-form, .pricing-text{
+            width: 100% !important;
+        }
+
+    }
+ }
+
+
+@media (max-width: 575.98px) {
+    .topbar{
+        p{
+            text-align: center !important;
+        }
+    }
+    .choose-your-package{
+        .pricing-form, .pricing-text{
+            width: 100% !important;
+        }
+
+
+    }
+    .main-header{
+        .header-img{
+            width: 100% !important;
+            margin-bottom: 3rem;
+        }
+        .header-image {
+            width: 90%;
+            margin: auto;
+        }
+    }
+    .mobile-view{
+        display: block !important;
+    }
+    .desktop-view{
+        display: none;
+    }
+    .want-to-see-pricing{
+        font-size: 22px !important;
+        line-height: 30px;
+    }
+ }
